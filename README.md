@@ -6,4 +6,7 @@ desplegada utilizando un contenador de Docker
 </br>
 → Ricardo Andres Mantilla Sanchez | mantillasanchezr@gmail.com
 </br>
+<br>
+→ Victor Manuel Realpe Popayan | victormanuelrealpepopayan@gmail.com
+</br>
 </div>
