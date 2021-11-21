@@ -1,16 +1,20 @@
 # MisionTic-ProyectoWeb4
 
-<div aling="center">
-  Este Proyecto tiene como fin la creacion de una App Web con el stack MERN que va a ser
-  desplegada utilizando un contenador de Docker
+Este Proyecto tiene como fin la creacion de una App Web con el stack MERN que va a ser
+desplegada utilizando un contenador de Docker
+
+## Autores ✒️
 
   <br>
-    → Ricardo Andres Mantilla Sanchez | mantillasanchezr@gmail.com
+  → Victor Manuel Realpe Popayan | victormanuelrealpepopayan@gmail.com
   </br>
   <br>
-    → Victor Manuel Realpe Popayan | victormanuelrealpepopayan@gmail.com
+  → Brayan Chavarro | brayanchavarro081@gmail.com
   </br>
-  <br> 
-    → Brayan Chavarro | brayanchavarro081@gmail.com
-  </br>
-</div>
+- **Ricardo Andres Mantilla Sanchez** - _Programador_ - [smar05](https://github.com/smar05)
+
+[contribuyentes](https://github.com/brayanCh/MisionTic-ProyectoWeb4/graphs/contributors) Quíenes han participado en este proyecto.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia - mira el archivo [LICENSE.md](LICENSE.md) para detalles
