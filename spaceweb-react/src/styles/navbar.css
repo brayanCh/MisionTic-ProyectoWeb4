@@ -7,13 +7,21 @@
     background-color: #124;
     color: white;
     display: flex;
+    align-items:center;
 }
 
 .nav-item{
-    height:90%;
+    border-radius: 5px;
+    height:40px;
     width: 200px;
-    margin: 0px 1px;
+    margin: 0px 0 0 18px ;
     display:flex;
     align-items: center;
     justify-content: center;
 }
+
+.nav-item:hover{
+    background-color: #38f;
+}
+
+
