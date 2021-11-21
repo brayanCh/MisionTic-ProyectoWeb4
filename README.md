@@ -11,6 +11,7 @@ desplegada utilizando un contenador de Docker
   <br>
   → Brayan Chavarro | brayanchavarro081@gmail.com
   </br>
+
 - **Ricardo Andres Mantilla Sanchez** - _Programador_ - [smar05](https://github.com/smar05)
 
 [contribuyentes](https://github.com/brayanCh/MisionTic-ProyectoWeb4/graphs/contributors) Quíenes han participado en este proyecto.
