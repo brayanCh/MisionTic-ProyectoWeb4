@@ -1,18 +1,18 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/bar";
 
 function App() {
     return (
         <Router>
             <Navbar />
-            <Switch>
+            <Routes>
                 <Route exact path="/usuarios/mostrar">
                 
                 </Route>
                 <Route exact path="/usuarios/crearnuevo">
                 
                 </Route>
-            </Switch>
+            </Routes>
         </Router>
     );
 }
