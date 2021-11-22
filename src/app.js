@@ -17,6 +17,7 @@ app.use(cors());
 // routes
 
 app.use("/users", require("./routes/user.routes"));
+app.use("/proyects", require("./routes/proyects.routes"));
 
 
 // connect
