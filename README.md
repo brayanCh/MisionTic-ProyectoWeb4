@@ -12,6 +12,9 @@ desplegada utilizando un contenador de Docker
   → Brayan Chavarro | brayanchavarro081@gmail.com
   </br>
   Patricia Osorio Correa | patosoc@gmail.com 
+<br>
+  → Faber Stiven Santa Popayan | stiivensanta@gmail.com
+  </br>
 
 - **Ricardo Andres Mantilla Sanchez** - _Programador_ - [smar05](https://github.com/smar05)
 
