@@ -11,6 +11,7 @@ desplegada utilizando un contenador de Docker
   <br>
   → Brayan Chavarro | brayanchavarro081@gmail.com
   </br>
+  Patricia Osorio Correa | patosoc@gmail.com 
 
 - **Ricardo Andres Mantilla Sanchez** - _Programador_ - [smar05](https://github.com/smar05)
 
