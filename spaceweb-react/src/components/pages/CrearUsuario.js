@@ -1,4 +1,5 @@
 import PageContainer from "../global/pageContainer";
+import InputText from "../global/inputText";
 import useInput from "./useInput"
 
 const CrearUsuarios = () => {
@@ -11,7 +12,8 @@ const CrearUsuarios = () => {
 
     return (
         <PageContainer>
-            <FormContainer>
+            <FormContainer title="Crea un nuevo usuario" >
+                <InputText onChange={setEmail} val={email} />
 
             </FormContainer>
         </PageContainer>
