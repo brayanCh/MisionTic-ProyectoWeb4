@@ -1,7 +1,7 @@
 const User = require("../models/users");
 
 
-export const GetAllUsers = async (req, res ) => {
+const GetAllUsers = async (req, res ) => {
 
     User.find({}, (err, result) => {
         err ? console.log(err)
@@ -10,7 +10,7 @@ export const GetAllUsers = async (req, res ) => {
 }
 
 
-export const CreateUsr = async (req, res) => {
+const CreateUsr = async (req, res) => {
     
     try{
         let usr = new User({
@@ -31,3 +31,11 @@ export const CreateUsr = async (req, res) => {
     }
 
 }
+
+
+ const x = {
+    GetAllUsers: GetAllUsers,
+     CreateUsr: CreateUsr
+ };
+
+module.exports = x;

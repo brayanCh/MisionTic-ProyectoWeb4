@@ -21,7 +21,7 @@ app.use("/users", require("./routes/user.routes"));
 
 // connect
 
-// const connectionUrl = 
+//const connectionUrl = 
 
 mongoose.connect(connectionUrl)
 .then(() => (
