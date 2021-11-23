@@ -26,11 +26,13 @@ const projSch = new mongoose.Schema({
         required: true
     },
     idLeader: {
-        type: Number,
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
         required: true
     },
     nameLeader: {
         type: String,
+        ref: 'User',
         required: true
     },
     isActive: {

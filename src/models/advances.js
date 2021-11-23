@@ -2,23 +2,21 @@ const mongoose = require("mongoose");
 
 const advSch = new mongoose.Schema({
 
-    projectId:{
-        type: String,
+    projectId: {
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
-        unique: true
+        ref: "Project"
     },
-    studentId:{
+    date: {
         type: String,
-        required: true,
-        unique: true
-    },
-    isAccepted: {
-        type: Boolean,
         required: true
     },
-    dateOfEntry: String,
-    dateOfExit : String
-});
+    description:{
+        type: String,
+        required: true
+    },
+    observations : String
+})
 
-const x = mongoose.model("Advance", advSch );
+const x = mongoose.model("Advances", advSch );
 module.exports = x;

@@ -1,47 +1,24 @@
 const mongoose = require("mongoose");
 
-const proySch = new mongoose.Schema({
+const insSch = new mongoose.Schema({
 
-    nameProyect:{
+    projectId:{
         type: String,
         required: true,
         unique: true
     },
-    generalGoals:{
+    studentId:{
         type: String,
         required: true,
+        unique: true
     },
-    specificGoals: String,
-
-    budget:{
-        type: Number,
-        required: true
-    },
-    startingDate:{
-        type: String,
-        require: true
-    },
-    endline{
-        type: String,
-        require: true
-    },
-    idLeader: {
-        type: Number,
-        required: true
-    },
-    nameLeader: {
-        type: String,
-        required: true
-    },
-    isActive: {
+    isAccepted: {
         type: Boolean,
         required: true
     },
-    stage:{
-        type: String,
-        required: true
-    }
-})
+    dateOfEntry: String,
+    dateOfExit : String
+});
 
-const x = mongoose.model("Proyect", proySch );
+const x = mongoose.model("Inscriptions", insSch );
 module.exports = x;
