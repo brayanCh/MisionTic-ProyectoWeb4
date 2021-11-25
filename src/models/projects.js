@@ -21,7 +21,7 @@ const projSch = new mongoose.Schema({
         type: String,
         required: true
     },
-    endline :{
+    deadline :{
         type: String,
         required: true
     },

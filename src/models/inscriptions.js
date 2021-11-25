@@ -3,12 +3,12 @@ const mongoose = require("mongoose");
 const insSch = new mongoose.Schema({
 
     projectId:{
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
         unique: true
     },
     studentId:{
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
         unique: true
     },
@@ -16,8 +16,11 @@ const insSch = new mongoose.Schema({
         type: Boolean,
         required: true
     },
-    dateOfEntry: String,
-    dateOfExit : String
+    startDate: {
+        type: String,
+        required: true
+    },
+    exitDate : String
 });
 
 const x = mongoose.model("Inscriptions", insSch );

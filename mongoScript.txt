@@ -1,0 +1,47 @@
+dataB = connect("localhost:4200/MISIONTIC4-DESARROLLOWEB-KOSMIC");
+
+dataB.getCollections();
+
+/* sacara
+
+    [User,
+    Project,
+    Advance,
+    Inscription]
+*/
+
+// crud con user
+
+dataB.User.insertOne({
+    mail: "ferrodri309@gmail.com",
+    completeName: "Fernado Rodriguez Osorio",
+    password: "G2JHS_*weadUWY23",
+    rol: "estudiante",
+    status: "pendiente"
+});
+
+
+// Encontrar todos los usuarios
+
+dataB.user.find({});
+
+// encontrar todos los estudiantes
+
+dataB.User.find({
+    rol: "estudiante"
+});
+
+// actualizar estatus por id
+
+
+dataB.User.updateOne(
+    {_id:"uy453535376UYYjD7976545jhjh"},
+    {$set: {status: "no Pendiente"}}
+);
+
+// eliminar usuarios no autorizados
+
+dataB.User.deleteMany({
+    status: "no autorizado"
+});
+

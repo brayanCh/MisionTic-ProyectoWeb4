@@ -7,16 +7,11 @@ const userSch = new mongoose.Schema({
         required: true,
         unique: true
     },
-    identification:{
-        type: String,
-        required: true,
-        unique: true
-    },
     completeName: {
         type: String,
         required: true
     },
-    passwdHash: {
+    password: {
         type: String,
         required: true
     },
@@ -24,7 +19,7 @@ const userSch = new mongoose.Schema({
         type: String,
         required: true
     },
-    state: {
+    status: {
         type: String,
         required: true
     }
